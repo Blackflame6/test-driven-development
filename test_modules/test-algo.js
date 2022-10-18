@@ -1,4 +1,15 @@
 const addOneAndTwo = (a,b) => {
   return a + b 
 }
-module.exports = addOneAndTwo
+
+
+const undefinedFunction = (num) => {
+  
+  return num
+}
+
+
+module.exports = {
+  addOneAndTwo,
+  undefinedFunction,
+}
